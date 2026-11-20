@@ -1,5 +1,5 @@
 import streamlit as st
-from rag_engine import load_base, ask_rag
+from rag_engine import load_knowledge_base, ask_rag
 st.title("SIET - Chatbot")
 st.caption("Ask anythimg about the college information, Courses, Placements, FAQs, Rules and regulations...")
 st.caption("RAG Pipeline with Multiple files")
